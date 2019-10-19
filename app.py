@@ -57,7 +57,9 @@ def getUserSorted():
 
 	return jsonify(result)
 
-
+def tushar():
+	print('HI')
+	
 
 
 if __name__ == "__main__":
