@@ -35,6 +35,9 @@ def handleMsg(data):
 	# print(data)
 	socketio.emit('push',data, broadcast = True,include_self = False)
 
+@socketio.on('sendemoji')
+def emojisender(image):
+	# socketio.emit()
 
 
 
